@@ -1,0 +1,30 @@
+{
+  "name": "edi_pretty_print",
+  "version": "1.0.0",
+  "description": "Pretty prints EDI files",
+  "bin": {
+    "edi_pretty_print": "./index.js",
+    "edi_pretty_print_install_win": "./install_win_context_menu.js",
+    "edi_pretty_print_uninstall_win": "./uninstall_win_context_menu.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "edi_pretty_print": "node index.js",
+    "edi_pretty_print_install_win": "node install_win_context_menu.js",
+    "edi_pretty_print_uninstall_win": "node uninstall_win_context_menu.js"
+  },
+  "keywords": [
+    "edi",
+    "pretty",
+    "print",
+    "file",
+    "files",
+    "windows",
+    "context",
+    "menu",
+    "right",
+    "click"
+  ],
+  "author": "Nel Muñiz",
+  "license": "ISC"
+}
